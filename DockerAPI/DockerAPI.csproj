@@ -8,13 +8,6 @@
     <PackageReference Include="Microsoft.NET.Build.Containers" Version="7.0.305" />
   </ItemGroup>
 
-<PropertyGroup>
-  <ContainerImageName>hellodocker7</ContainerImageName>
-  <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
-  <PublishProfile>DefaultContainer</PublishProfile>
-  <ContainerImageTags>1.1.0;latest</ContainerImageTags>    
-</PropertyGroup>
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
